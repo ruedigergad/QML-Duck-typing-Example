@@ -4,7 +4,7 @@ import QtQuick 1.1
 Rectangle {
     id: mainRectangle
 
-    width: 1100
+    width: 1060
     height: 400
 
     /*
@@ -214,8 +214,8 @@ Rectangle {
                  * If the method/function is present it will be executed, else an error will occur.
                  *
                  * This is what Duck-typing is about:
-                 * "If I see an animal that walks like a duck, quacks like a duck,
-                 *  and looks like a duck, I call that animal a 'duck'."
+                 * "When I see a bird that walks like a duck and swims like a duck and quacks like a duck,
+                 *  I call that bird a duck." - James Whitcomb Riley
                  *
                  * In our case we do not rely on inheritance hierarchies etc. but just execute whatever
                  * method/function is there that has the name "myMethod".
